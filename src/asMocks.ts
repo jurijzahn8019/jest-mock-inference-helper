@@ -15,7 +15,7 @@ type AsMocks<
  * @param funcs
  * @returns
  */
-export function asMocks<Funcs extends Record<string, (...args: any) => any>>(
+export function asMocks<Funcs extends Record<string, any>>(
   funcs: Funcs
 ): AsMocks<Funcs> {
   const res = {} as Record<string, any>;
