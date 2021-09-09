@@ -13,6 +13,7 @@ Object {
   "asClassMock": [Function],
   "asMock": [Function],
   "asMocks": [Function],
+  "fromPartial": [Function],
 }
 `);
   });
