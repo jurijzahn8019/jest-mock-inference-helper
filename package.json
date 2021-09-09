@@ -67,12 +67,12 @@
     "git-branch": "^2.0.1",
     "husky": "^7.0.2",
     "jest": "^27.1.1",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.0",
     "rollup": "^2.56.3",
     "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.20",
     "standard-version": "^9.3.1",
     "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
-    "typescript": "4.3.4"
+    "typescript": "4.3.5"
   }
 }
