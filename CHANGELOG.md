@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.9](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.1.8...v1.1.9) (2021-11-08)
+
+
+### 🛠 Chore
+
+* **deps-dev:** bump rollup from 2.58.3 to 2.59.0 ([8cc63e8](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/8cc63e8d5456a18c29e7afff61ba464ca741ee1a)), closes [#4249](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4249) [#4256](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4256) [#4236](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4236) [#4249](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4249) [#4256](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4256) [#4249](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4249) [#4256](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4256) [#4236](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4236) [#4249](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4249) [#4256](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4256) [#4256](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4256) [#4236](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4236) [#4249](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/4249)
+* **deps-dev:** bump rollup-plugin-exclude-dependencies-from-bundle from 1.1.20 to 1.1.21 ([c404cb1](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/c404cb13902def05729dfce59766da331a510de6))
+* **deps:** bump actions/checkout from 2.3.5 to 2.4.0 ([35f5eda](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/35f5edadc637cb21fcfd3157198f1733c5eb4d5d)), closes [#621](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/621) [#620](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/620) [#614](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/614) [#612](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/612) [#611](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/611) [#602](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/602)
+* **deps:** bump jurijzahn8019/action-dependabot-bump-range from 0.0.49 to 0.0.50 ([f137734](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/f137734e2a3d7d464518321bb0d103a7d7844ad8))
+
 ### [1.1.8](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.1.7...v1.1.8) (2021-11-01)
 
 
