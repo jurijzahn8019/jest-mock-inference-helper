@@ -9,13 +9,14 @@ jest.mock("./__fixtures__/foo");
 describe("exports", () => {
   it("Shoudl export", () => {
     return expect(import("./index")).resolves.toMatchInlineSnapshot(`
-Object {
-  "asClassMock": [Function],
-  "asMock": [Function],
-  "asMocks": [Function],
-  "fromPartial": [Function],
-}
-`);
+              Object {
+                "asClassMock": [Function],
+                "asMock": [Function],
+                "asMocks": [Function],
+                "fromPartial": [Function],
+                "withParamsPartial": [Function],
+              }
+            `);
   });
 });
 
