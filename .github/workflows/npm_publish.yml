@@ -9,25 +9,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v2.5.1
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
-      - uses: actions/cache@v2.1.7
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          node-version: 16.x
+          cache: npm
       - run: npm ci
       - run: npm test
 
       - name: Persist dist
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: dist
           path: ${{ github.workspace }}/dist
       - name: Persist tmp
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: tmp
           path: ${{ github.workspace }}/tmp
@@ -42,15 +37,10 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           path: ${{ github.workspace }}
-      - uses: actions/setup-node@v2.5.1
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
-      - uses: actions/cache@v2.1.7
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          node-version: 16.x
+          cache: npm
 
       - name: Install Dependencies
         run: npm ci
@@ -58,9 +48,9 @@ jobs:
         timeout-minutes: 2
         run: npm run build
 
-      - uses: actions/setup-node@v2.5.1
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 16.x
           registry-url: https://registry.npmjs.org/
 
       - name: Publish Prerelease
@@ -84,24 +74,19 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           path: ${{ github.workspace }}
-      - uses: actions/setup-node@v2.5.1
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
-      - uses: actions/cache@v2.1.7
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          node-version: 16.x
+          cache: npm
 
       - name: Install Dependencies
         run: npm ci
       - name: Build Sources
         run: npm run build
 
-      - uses: actions/setup-node@v2.5.1
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 16.x
           registry-url: https://npm.pkg.github.com/
 
       - name: Publish Prerelease
