@@ -47,7 +47,7 @@
   },
   "homepage": "https://github.com/jurijzahn8019/jest-mock-inference-helper#readme",
   "peerDependencies": {
-    "jest": ">= 26 < 29"
+    "jest": ">= 26 < 30"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
