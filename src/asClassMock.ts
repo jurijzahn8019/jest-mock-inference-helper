@@ -8,7 +8,9 @@ type AsMockProto<
 
 type AsMockField<T> = T extends (...args: any) => any
   ? jest.MockedFunction<T>
-  : AsMockProto<T>;
+  : T extends Record<string, unknown>
+  ? AsMockProto<T>
+  : never;
 
 type AsMockConfig<
   T extends Record<string, any>,
