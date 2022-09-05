@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.29](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.2.28...v1.2.29) (2022-09-05)
+
+
+### 🛠 Chore
+
+* **deps-dev:** bump @types/node from 18.7.14 to 18.7.15 ([55f2dd2](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/55f2dd21f83aa6d5f04ba484aa5b7e21f4e8ed63))
+
 ### [1.2.28](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.2.27...v1.2.28) (2022-08-31)
 
 
