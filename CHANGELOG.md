@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.31](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.2.30...v1.2.31) (2022-09-19)
+
+
+### 🛠 Chore
+
+* **deps-dev:** bump @types/node from 18.7.16 to 18.7.17 ([e27ec41](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/e27ec410d73ce215d0a80aa35f0612daa7929b77))
+* **deps-dev:** bump @types/node from 18.7.17 to 18.7.18 ([55a74aa](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/55a74aaa747f9d5eae1eadfad388d38f50f6ca79))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 5.36.2 to 5.37.0 ([387712a](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/387712a9319064be8004a5cfdb31823d563be531)), closes [#5539](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5539) [#5621](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5621) [#5608](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5608) [#5539](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5539) [#5611](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5611)
+* **deps-dev:** bump @typescript-eslint/parser from 5.36.2 to 5.37.0 ([ee7e7b8](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/ee7e7b863514f5d08795a0ce9a8e7fb2052f607a)), closes [#5539](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5539) [#5621](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5621) [#5608](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5608)
+* **deps-dev:** bump eslint from 8.23.0 to 8.23.1 ([52da9d7](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/52da9d7502125eeef3652fc9681966e6672f12ec))
+* **deps:** bump jurijzahn8019/action-dependabot-bump-range from 0.0.94 to 0.0.95 ([bbc798b](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/bbc798b00c515327990fac511da342e4590ec7b9))
+
 ### [1.2.30](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.2.29...v1.2.30) (2022-09-12)
 
 
