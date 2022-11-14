@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.39](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.2.38...v1.2.39) (2022-11-14)
+
+
+### 🛠 Chore
+
+* **deps-dev:** Bump @typescript-eslint/eslint-plugin from 5.42.0 to 5.42.1 ([87ce509](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/87ce509b19c97d1249370798cc21954b4e9f6363))
+* **deps-dev:** Bump @typescript-eslint/parser from 5.42.0 to 5.42.1 ([1fe5242](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/1fe52427c3fe2908967b33ad96f10bf9fbd68c72)), closes [#5913](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5913) [#5875](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5875) [#5876](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/5876)
+* **deps-dev:** Bump eslint from 8.26.0 to 8.27.0 ([af4095f](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/af4095f958f6b9105c10958562e687dd66f05d16))
+* **deps-dev:** Bump husky from 8.0.1 to 8.0.2 ([5c93df9](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/5c93df9786e717420ed36102e983178393988bae)), closes [#1197](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/1197) [#1164](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/1164) [#1154](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/1154) [#1149](https://github.com/jurijzahn8019/jest-mock-inference-helper/issues/1149)
+* **deps:** Bump jurijzahn8019/action-dependabot-bump-range from 0.0.102 to 0.0.103 ([2198ce0](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/2198ce0cb88056bf5ac5bd2565277ee6ddfb0d17))
+
 ### [1.2.38](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.2.37...v1.2.38) (2022-11-07)
 
 
