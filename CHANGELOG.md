@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.43](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.2.42...v1.2.43) (2022-11-30)
+
+
+### 🛠 Chore
+
+* **deps:** bump amannn/action-semantic-pull-request ([4a1ff89](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/4a1ff89bd9fdd560ef13b2fa6445d61f0000fc73))
+
+
+### 🐛 Bug Fixes
+
+* **types:** fix inference of class mock ([8d682d1](https://github.com/jurijzahn8019/jest-mock-inference-helper/commit/8d682d130e2e2eb7e3563a1ce9f7daa384073574))
+
 ### [1.2.42](https://github.com/jurijzahn8019/jest-mock-inference-helper/compare/v1.2.41...v1.2.42) (2022-11-30)
 
 
