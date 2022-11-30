@@ -9,7 +9,7 @@ jest.mock("./__fixtures__/foo");
 describe("exports", () => {
   it("Shoudl export", () => {
     return expect(import("./index")).resolves.toMatchInlineSnapshot(`
-              Object {
+              {
                 "asClassMock": [Function],
                 "asMock": [Function],
                 "asMocks": [Function],
@@ -48,7 +48,7 @@ describe("asClassmock", () => {
     const fooClass = new FooClass();
 
     // ? This will fail since inner object is not automocked
-    expect(() => fooClass.innerObject.theFoo()).toThrowError();
+    expect(() => fooClass.innerObject.theFoo()).toThrow();
 
     // ? This wiil work since outer fileds are automocked
     expect(() => fooClass.outerFoo()).not.toThrow();
@@ -73,7 +73,7 @@ describe("asClassmock", () => {
     const fooClass = new FooClass();
 
     // ? This will success since inner object is mocked by the helper now
-    expect(() => fooClass.innerObject.theFoo()).not.toThrowError();
+    expect(() => fooClass.innerObject.theFoo()).not.toThrow();
 
     // Default implementation
     expect(fooClass.innerObject.theFoo()).toBeUndefined();
@@ -100,7 +100,7 @@ describe("asClassmock", () => {
     const fooClass = new FooClass();
 
     // ? This will success since inner object is mocked by the helper now
-    expect(() => fooClass.innerObject.theFoo()).not.toThrowError();
+    expect(() => fooClass.innerObject.theFoo()).not.toThrow();
 
     // Provided mock implementation is used
     expect(fooClass.innerObject.theFoo()).toEqual("inner Foo");
